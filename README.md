@@ -65,9 +65,8 @@ mv build/app/outputs/flutter-apk/app-release.apk apk/todo_app.apk
 ---
 
 ## 📬 Download APK  
-
-## 📬 Download APK  
 [Download Latest APK](https://github.com/Anureddykv/todo/raw/main/app-release.apk)
+
 
 ---
 
