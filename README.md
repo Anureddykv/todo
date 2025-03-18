@@ -26,36 +26,6 @@ A simple and efficient TODO app built using **Flutter** with **MVVM architecture
 - **Flutter Widgets (ListView, TextField, Buttons, etc.)**  
 
 ---
-
-## 📸 Screenshots  
-
-| Task List | Task Details | Task Sharing |  
-|-----------|-------------|--------------|  
-| ![Task List](screenshots/task_list.png) | ![Task Details](screenshots/task_details.png) | ![Task Sharing](screenshots/task_sharing.png) |  
-
----
-
-## 🏗 Project Structure  
-
-\`\`\`
-lib/
-│-- models/
-│   ├── task_model.dart
-│-- views/
-│   ├── home_screen.dart
-│   ├── task_detail_screen.dart
-│-- viewmodels/
-│   ├── task_viewmodel.dart
-│-- services/
-│   ├── firebase_service.dart
-│-- widgets/
-│   ├── task_tile.dart
-│   ├── input_field.dart
-│-- main.dart
-\`\`\`
-
----
-
 ## 📦 Installation  
 
 ### 1️⃣ Clone the Repository  
