@@ -1,62 +1,115 @@
+# 📋 TODO Flutter App  
 
-# todo_app
+A simple and efficient TODO app built using **Flutter** with **MVVM architecture** and **Provider** for state management. This app allows users to **share tasks**, **receive tasks**, and **edit them in real-time**, ensuring seamless collaboration.  
 
-A new Flutter project.
+---
 
-## Getting Started
+## 🚀 Features  
 
-This project is a starting point for a Flutter application.
+✅ **Task Sharing:** Users can share tasks with others via email and other media.  
+✅ **Real-time Sync:** When a shared task is modified, updates reflect instantly for the owner.  
+✅ **Infinite Task List:** The app supports an unlimited number of tasks.  
+✅ **Responsive UI:** Adapts to different screen sizes seamlessly.  
+✅ **MVVM Architecture:** Ensures a clean and scalable code structure.  
+✅ **State Management with Provider:** Manages UI state efficiently.  
+✅ **Reusable Components:** Uses widgets like ListView, input fields, and more.  
 
-### 📱 Download APK
-[Download Latest APK](apk/todo_app.apk)
+---
 
-## Installation
+## 🛠 Tech Stack  
 
-To run this project locally, follow these steps:
+- **Flutter** (Dart)  
+- **MVVM Architecture**  
+- **Provider (State Management)**  
+- **Firebase Firestore (Real-time Updates)**  
+- **Firebase Authentication (For User Identification)**  
+- **Flutter Widgets (ListView, TextField, Buttons, etc.)**  
 
-1. **Clone the repository**  
-   \`\`\`sh
-   git clone https://github.com/Anureddykv/todo.git
-   cd todo
-   \`\`\`
+---
 
-2. **Install dependencies**  
-   \`\`\`sh
-   flutter pub get
-   \`\`\`
+## 📸 Screenshots  
 
-3. **Run the application**  
-   \`\`\`sh
-   flutter run
-   \`\`\`
+| Task List | Task Details | Task Sharing |  
+|-----------|-------------|--------------|  
+| ![Task List](screenshots/task_list.png) | ![Task Details](screenshots/task_details.png) | ![Task Sharing](screenshots/task_sharing.png) |  
 
-## Building APK
+---
 
-To build an APK for Android, run:
+## 🏗 Project Structure  
 
+\`\`\`
+lib/
+│-- models/
+│   ├── task_model.dart
+│-- views/
+│   ├── home_screen.dart
+│   ├── task_detail_screen.dart
+│-- viewmodels/
+│   ├── task_viewmodel.dart
+│-- services/
+│   ├── firebase_service.dart
+│-- widgets/
+│   ├── task_tile.dart
+│   ├── input_field.dart
+│-- main.dart
+\`\`\`
+
+---
+
+## 📦 Installation  
+
+### 1️⃣ Clone the Repository  
+\`\`\`sh
+git clone https://github.com/Anureddykv/todo.git
+cd todo
+\`\`\`
+
+### 2️⃣ Install Dependencies  
+\`\`\`sh
+flutter pub get
+\`\`\`
+
+### 3️⃣ Run the App  
+\`\`\`sh
+flutter run
+\`\`\`
+
+---
+
+## 🔨 Building the APK  
+
+To generate the APK:  
 \`\`\`sh
 flutter build apk
 \`\`\`
-
-The generated APK will be located at:
+The APK will be found in:  
 \`\`\`
 build/app/outputs/flutter-apk/app-release.apk
 \`\`\`
-
-Move the APK to the \`apk/\` folder:
+Move the APK to an accessible location:  
 \`\`\`sh
 mkdir -p apk
 mv build/app/outputs/flutter-apk/app-release.apk apk/todo_app.apk
 \`\`\`
 
-## Resources
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📬 Download APK  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[Download Latest APK](apk/todo_app.apk)  
 
-For help getting started with Flutter development, view the  
-[online documentation](https://docs.flutter.dev/), which offers tutorials,  
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📧 Contact  
+For any queries, please reach out:  
+📩 **Email:** your-email@example.com  
+
+---
+
+## 📝 License  
+This project is **open-source** and available under the MIT License.  
+
+---
+
+### **🌟 If you like this project, give it a star on GitHub! 🌟**  
 
